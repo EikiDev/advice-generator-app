@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./src/styles/reset.css">
+  <link rel="stylesheet" href="./src/styles/style.css">
+  <link rel="stylesheet" href="./src/styles/responsive.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+  <title>Advice generator app</title>
+
+</head>
+
+<body>
+  <main>
+    <section class="advice-container">
+
+      <h2>Advice #<span id="advice-id"><!-- Advice ID goes here --></span></h2>
+
+      <p id="advice-text"><!-- Advice text goes here --></p>
+
+      <picture>
+        <source media="(min-width: 768px)" srcset="./images/pattern-divider-desktop.svg">
+        <img class="pattern-divider" src="./images/pattern-divider-mobile.svg" alt="pattern-divider">
+      </picture>
+
+      <button id="advice-button">
+        <img src="./images/icon-dice.svg" alt="dice button">
+      </button>
+
+    </section>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Lucas Eiki Gushiken</a>.
+  </div>
+
+  <script type="module" src="./dist/index.js"></script>
+</body>
+
+</html>

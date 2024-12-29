@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .advice-container {
+        /* max-width: 365px; */
+        margin: 15px;
+        padding: 48px 30px 60px 30px;
+        border-radius: 8px;
+    }
+
+    .advice-container h2 {
+        font-size: 10px;
+        letter-spacing: 4px;
+    }
+
+    .advice-container p {
+        font-size: 24px;
+    }
+}
