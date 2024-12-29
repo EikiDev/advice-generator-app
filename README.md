@@ -29,8 +29,8 @@ Usuários devem ser capazes de:
 
 ### Links
 
-- Solução no Frontend Mentor: [Add solution URL here](https://your-solution-url.com)
-- Site: [Add live site URL here](https://your-live-site-url.com)
+- Solução no Frontend Mentor: [https://www.frontendmentor.io/solutions/advice-generator-app-ds7E35PNvv](https://www.frontendmentor.io/solutions/advice-generator-app-ds7E35PNvv)
+- Site: [https://eikidev.github.io/advice-generator-app/](https://eikidev.github.io/advice-generator-app/)
 
 ## Meu processo
 
